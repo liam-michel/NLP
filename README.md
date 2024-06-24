@@ -1,12 +1,5 @@
-# NLP-2024
-This lab module is in correspondence to the theory course module for Natural Language Processing (2024)
-(https://surreylearn.surrey.ac.uk/d2l/home/239843) at University of Surrey.
+# Basic instructions to run the notebook allExperiments
 
-## Installation/Access of Jupyter Notebook on local (heron) machines
-Please find the [instructions for local installation here](https://github.com/surrey-nlp/NLP-2024/blob/main/NLP-Jupyter_Notebooks_Installation.pdf).
-
-## Access to SageMaker (preferred)
-
-Please visit [https://studiolab.sagemaker.aws/](https://studiolab.sagemaker.aws/) and request a free account. <br/>
-After you verify the email account, you shall be added to a waitlist and will get access to Sagemaker Lab soon.
-
+You can install all dependencies to your machine using the **dependencies.ipynb** notebook, if you use this then you don't have to execute the first cell in **allExperiments.ipynb**. \
+Once this is done, you can run the cells in the main notebook and execute the experiments at will.\
+Bear in mind that all the cells for a given experiment should be executed in isolation, as some variables are overwritten across experiments.
